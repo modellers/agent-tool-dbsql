@@ -1,0 +1,5 @@
+sqlalchemy
+click
+psycopg2-binary
+openai
+#pymysql

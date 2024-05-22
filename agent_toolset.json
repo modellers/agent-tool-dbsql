@@ -1,0 +1,18 @@
+{
+    "actions": [
+      {
+        "name": "database-tables",
+        "description": "Get list of tables in database",
+        "command": "test_tool_script.py --param1 ${param1}",
+        "type": "python",
+        "input": {
+          "type": "object",
+          "properties": {
+            "param1": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    ]
+  }
